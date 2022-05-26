@@ -1,9 +1,14 @@
-# Application
+# URL Shortener
 
-## Backend Environment Setup
+- Backend: [ExpressJS](https://expressjs.com/)
+- Database: [MongoDB](https://www.mongodb.com/)
+- Frontend : [NextJS](https://nextjs.org/)
+
+### Backend Environment Setup
 
 To reach inside the `backend` folder from terminal and to install the dependencies and to start the backend server run
-the below commands.
+the below commands. By default, backend app runs at port `3001` on your local machine. you can change
+inside `backend/bin/www` file.
 
 ```
   cd backend
@@ -11,22 +16,20 @@ the below commands.
   npm start
 ```
 
-By default, backend app runs at port `3001` on your local machine. you can change inside `backend/bin/www` file.
-
-### Backend API Endpoints
+#### Backend API Endpoints
 
 | Method | API  | Content-Type | JSON Body |
 | -------- | ---------------    | ------------       | ----- |
-| **POST** | `{BACKEND_SERVER_URL}/api/url/encode` | `application/json` | `{ "longUrl": "https://google.com" }` |
-| **POST** | `{BACKEND_SERVER_URL}/api/url/encode` | `application/json` | `{ "code": "ABC123" }` |
-| **GET**  | `{BACKEND_SERVER_URL}/api/url/statistic/:code` | `application/json` | `-` |
+| **POST** | `{BACKEND_URL}/api/url/encode` | `application/json` | `{ "longUrl": "https://google.com" }` |
+| **POST** | `{BACKEND_URL}/api/url/encode` | `application/json` | `{ "code": "ABC123" }` |
+| **GET**  | `{BACKEND_URL}/api/url/statistic/:code` | `application/json` | `-` |
 
+___
 
+### Frontend Environment Setup
 
-## Frontend Environment Setup
-
-To reach inside the `frontend` folder from terminal and to install the dependencies and to start the backend server run
-the below commands.
+To reach inside the `frontend` folder from terminal to start and install project dependencies run
+the below commands on your terminal.
 
 ```
   cd frontend
