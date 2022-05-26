@@ -4,6 +4,20 @@
 - Database: [MongoDB](https://www.mongodb.com/)
 - Frontend : [NextJS](https://nextjs.org/)
 
+### Database Environment Setup
+
+You can follow the [these](https://www.mongodb.com/basics/create-database) steps to create the database and user account
+password.
+
+1. Rename `.env.sample` to `.env`
+2. Replace below values with your creative ones.
+    - `<USER_NAME>`
+    - `<PASSWORD>` 
+      - You have to use password from  *Security > Database Access*
+        ![Image](https://i.ibb.co/YXDVXmc/Screen-Shot-2022-05-26-at-10-32-00-AM.png)
+    - `<MONGO_CLUSTER>`
+    - `<DB_NAME>`
+
 ### Backend Environment Setup
 
 To reach inside the `backend` folder from terminal and to install the dependencies and to start the backend server run
@@ -28,8 +42,8 @@ ___
 
 ### Frontend Environment Setup
 
-To reach inside the `frontend` folder from terminal to start and install project dependencies run
-the below commands on your terminal.
+To reach inside the `frontend` folder from terminal to start and install project dependencies run the below commands on
+your terminal.
 
 ```
   cd frontend
