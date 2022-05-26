@@ -6,7 +6,7 @@
 
 ### Database Environment Setup
 
-You can follow the [these](https://www.mongodb.com/basics/create-database) steps to create the database and user account
+You can follow [these](https://www.mongodb.com/basics/create-database) steps to create the database and user account
 password.
 
 1. Rename `.env.sample` to `.env` inside the backend and frontend folders.
@@ -50,3 +50,5 @@ your terminal.
   npm install
   npm run dev
 ```
+
+Paste `http://localhost:3000/` in your browser to access the frontend.
