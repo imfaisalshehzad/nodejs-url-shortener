@@ -9,8 +9,8 @@
 You can follow the [these](https://www.mongodb.com/basics/create-database) steps to create the database and user account
 password.
 
-1. Rename `.env.sample` to `.env`
-2. Replace below values with your creative ones.
+1. Rename `.env.sample` to `.env` inside the backend and frontend folders.
+2. Replace below values with yours inside the `backend` project directory.
     - `<USER_NAME>`
     - `<PASSWORD>` 
       - You have to use password from  *Security > Database Access*
